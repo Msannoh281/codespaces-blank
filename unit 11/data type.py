@@ -41,3 +41,6 @@ False
 schoolname = 'Boys Latin'
 address = '123 Main Street'
 phone = 2155999999
+
+
+Syntax
