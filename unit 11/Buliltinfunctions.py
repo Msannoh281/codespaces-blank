@@ -2,14 +2,19 @@
 # in the programming laguage.So long as you know the
 #keyword you can use its power.
 
-#float () -Allows us to change whole numbers into decimals
-price0fDrink = 10
-name0fDrink = water
-#sring numbers can work but string charcaters cannot
-print(float(price0fDrink))
-print(float(name0fDrink))
+print('Hom')
+
+#input() function - this is a built in function that allows users to
+#tpe data into a program and assign it to a variable. the newly
+#inputted dta will ALWAYS be treated as a STRING.
+
+time = input('Good morning. what time is it? ')
 
 
-# int()- Allows us to change decimals into whole numbers
-interestRate = 7.891
-isCreditGood = 'Hom'
+#when we combine 2 or more string together with the plus sign.
+# it is called string concatienation
+#print('The current time is ' + time)
+
+number = input('give me a number to calculate')
+
+ print(3+ str(number))
