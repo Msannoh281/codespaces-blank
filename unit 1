@@ -1,0 +1,26 @@
+#Function - Instructions for excuting code
+
+# to create a function, we strat with the "def" keyboard
+#this is the function definition
+#this describe the steps/ instruction that we want our
+#code to do.
+
+def pdj()
+    print("step 1. get 2 slices of bread")
+    print('step 2. spread peanutbutter on 1 slices of bread')
+    print('step 3. spread jelly/jam on the other slice)
+    print('step 4 put slices together with spread facing eachother')
+    print('step 5 sandwich is done. Enjoy')
+
+#to actually run execute a function, you need to write its name
+#this called a function call, or function invocation.
+pdj()
+
+def hamurber()
+    print('hamburger coming right up!')
+
+
+
+def math_add():
+    a = input("enter a number: ")
+    
