@@ -31,15 +31,29 @@ def birthdate(name, date):
 
 def dollarConverter():
    pennies = dollar * 100
-   print('My '+ dollar + 's is equal to' + str(pennies) + pennies +
+   #print('My '+ dollar + 's is equal to' + str(pennies) + pennies +
          
-dollarConverter(1)
+#dollarConverter(1)
 
-# Create a function that will calulate that area of a triangle.
-# Your functions= should take in 2 parmeters 
-# One will represent the length, and the other the width
+#activity 3
+#Create a function that will calculate the area of a triangle.
+#Your function should take in 2 parameters. one will represent the length,
+#Legth = 20
+#width = 15
+#height = 23
 
-#Hint: to claculate area of a triangle you must
-# calculate the length * the width.
+#Hint: to calculate the area of triangle you must calulate the
+#legth * width * height
 
-def triangel 
+#activity 4
+#create a temperature converter function the changes
+#Fahrenheit to celsius. your function should take in a 
+#parameter that will represent the temperature you want to change.
+
+#Hint: To convert fahreheit to celsius use the following formula:
+
+# (Fahreheit - 32) * 5/9
+
+def tempertureConverter(temp):
+   print( temp - 32 * 5/9 ) 
+tempertureConverter(32)
