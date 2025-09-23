@@ -30,7 +30,7 @@ $^&^^*^&$!#@$#@^%
 0.001
 
 
-# Bloolean - is a value that can be either true or false.
+# Boolean - is a value that can be either true or false.
 true
 False
 0
