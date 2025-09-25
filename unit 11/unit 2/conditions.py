@@ -1,13 +1,13 @@
+#Conditional Statements - code instruction that
+#have different outcomes based on the inputted data.
+#input --> conditiob--> output
 
+# Conditional statement snytax
+# if keyword - contraols the condition we want to satisfy.
 
+#elif keyword - same thing as the keywords.
 
-
-# Co
-
-
-
-
-
+#else keyword - Our default outcome.
  studentCredit = input/"please enter the number of credits you have: ")
 
  if (int(studentCredit) >= 50):
