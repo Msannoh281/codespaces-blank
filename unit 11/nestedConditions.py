@@ -27,9 +27,31 @@ def movieTickets():
 
 
 def atm():
-    pin =int(input("please enter your pin number"))
-    account = 200
-    pinNumber = 1234
-    if pin == pinNumber:
-       
-       print("welcome, what would you like to do? ")
+    balence = 5000
+    pin = 1234
+    print("welcome, please type your pin number: ")
+    userPin= int(input())
+    if userpin == pin:
+        print("welcome what would you like to do? ")
+        print("1. Withdraw money")
+        print("2. depoit money ")
+        print("3. check balence")
+        select= pin =int(input("please select an option: "))
+        if select == 1:
+            print('how much would you like to withdraw')
+            amount = int(input())
+            if amount > balance:
+                print("Overdraft a alert")
+            else:
+                newBalence = balence - amount
+                print("you are taking out " + str(amount))
+                print("you have this amount left: " + str(newBalence))
+   
+    elif select == 2:
+         print('How much money do you want to deposit?')
+         amount = int(input())
+         newBalence = balence - amount
+         print("you adding to your account: " + str(amount))
+         print("your new balence is: " + str(newBalence))
+
+    elif select:
