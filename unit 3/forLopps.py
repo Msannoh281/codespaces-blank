@@ -47,3 +47,18 @@ for items in shoppingPrices:
     total += items * tax
 
 print(total)
+
+
+shipment = []
+
+for x in range(10)
+    print("create a iphone")
+    print('step 1.  get casing')
+    print('step 2. put on motherboard and harware')
+    print('step 3. put on screen')
+    print('step 4. check to see if it works')
+    screenIs0n = input('is screen')
+    print('step 5. put in box and place in shipment')
+    phone = 'iphone serial number: ' +str(x)
+    shipment.append(phone)
+    print(shipment)
