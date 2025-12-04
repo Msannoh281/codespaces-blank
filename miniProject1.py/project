@@ -1,0 +1,10 @@
+# question 1
+def questions():
+input = ('What is data type would you use when doinga ture or false questions')
+    print = (A.is it boolean)
+    print = (B. is it string)
+    print = (C. is it Float)
+
+#Question 2
+    def question():
+    input = ('What is a ')   
