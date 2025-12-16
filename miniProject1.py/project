@@ -1,10 +1,18 @@
 # question 1
-def questions():
-input = ('What is data type would you use when doinga ture or false questions')
-    print = (A.is it boolean)
-    print = (B. is it string)
-    print = (C. is it Float)
 
-#Question 2
-    def question():
-    input = ('What is a ')   
+print("1. What is data type would you use when doinga ture or false questions? ")
+print("A.is it boolean")
+print ("B. is it string")
+print("C. is it Float")
+userAnswer = input()
+# print('this is what the user enter: ' + userAnswer)
+correctAnswer = "a"
+if userAnswer == correctAnswer:
+    print('correct')
+    score +=1
+else:
+    print("incorrect")
+
+
+
+
